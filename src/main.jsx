@@ -5,6 +5,9 @@ import "./index.css";
 import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
+import Resume from "./pages/Resume.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,18 +19,18 @@ const router = createBrowserRouter([
         index: true,
         element: <AboutMe />,
       },
-      // {
-      //   path: "/portfolio",
-      //   element: <Portfolio />,
-      // },
-      // {
-      //   path: "/contact",
-      //   element: <Contact />,
-      // },
-      // {
-      //   path: "/resume",
-      //   element: <Resume />,
-      // },
+      {
+        path: "/portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/resume",
+        element: <Resume />,
+      },
     ],
   },
 ]);
