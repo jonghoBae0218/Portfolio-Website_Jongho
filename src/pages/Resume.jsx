@@ -7,19 +7,19 @@ function Resume() {
       <h1 className="text-4xl font-bold mb-8 text-center">Resume</h1>
 
       {/* Resume Image */}
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center mb-24">
         <img
-          src="./resume.jpg" // Path to your resume image
+          src="./resume.jpg"
           alt="Resume"
-          className="w-full max-w-xl h-auto"
+          className="w-full max-w-3xl h-auto"
         />
       </div>
 
       {/* Download Button */}
       <div className="flex justify-center">
         <a
-          href="./images/resume.jpg" // Path to your resume image
-          download="Resume_Jongh_Bae.jpg" // Name for the downloaded file
+          href="./images/resume.jpg"
+          download="Resume_Jongh_Bae.jpg"
           className="bg-blue-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition-colors"
         >
           Download Resume
