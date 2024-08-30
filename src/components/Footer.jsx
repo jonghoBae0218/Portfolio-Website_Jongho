@@ -11,7 +11,7 @@ function Footer() {
           className="hover:opacity-75"
         >
           <img
-            src="./public/images/github-mark-white.svg"
+            src="./images/github-mark-white.svg"
             alt="Github Logo"
             className="w-12 h-12"
           />
@@ -35,7 +35,7 @@ function Footer() {
           className="hover:opacity-75"
         >
           <img
-            src="./public/images/instagram.png"
+            src="./images/instagram.png"
             alt="Instagram Logo"
             className="w-12 h-12"
           />
