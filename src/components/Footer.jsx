@@ -40,6 +40,14 @@ function Footer() {
             className="w-12 h-12"
           />
         </a>
+        {/* Email Link */}
+        <a href="mailto:jb4918@columbia.edu" className="hover:opacity-75">
+          <img
+            src="./images/gmail.png"
+            alt="Email Logo"
+            className="w-12 h-12"
+          />
+        </a>
       </div>
     </footer>
   );
