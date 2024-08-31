@@ -71,8 +71,8 @@ function AboutMe() {
       {/* Section 3: Download Resume */}
       <section className="flex justify-center py-6">
         <a
-          href="./public/resume.jpg"
-          download
+          href="./resume.jpg"
+          download="Resume_Jongh_Bae.jpg"
           className="bg-blue-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition-colors"
         >
           Download Resume

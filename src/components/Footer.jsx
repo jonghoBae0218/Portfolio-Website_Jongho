@@ -23,7 +23,7 @@ function Footer() {
           className="hover:opacity-75"
         >
           <img
-            src="./public/images/linkedin.png"
+            src="./images/linkedin.png"
             alt="Linkedin Logo"
             className="w-12 h-12"
           />
