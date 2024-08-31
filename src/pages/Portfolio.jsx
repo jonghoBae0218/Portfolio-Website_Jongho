@@ -65,7 +65,7 @@ function Portfolio() {
 
         {/* Container 3 */}
         <a
-          href="https://example.com/project3"
+          href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
           target="_blank"
           rel="noopener noreferrer"
           className="block bg-gray-800 text-white rounded-lg overflow-hidden border border-gray-600 transition-transform transform hover:scale-105"
@@ -85,11 +85,10 @@ function Portfolio() {
               detect the key objects for resquing pilots in moon setting.
             </p>
             <a
-              href="https://github.com/DeadSeaTupperware/Project2-Find-My-Duo"
+              href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
               className="text-blue-400 hover:underline"
             >
-              Github Repository Link - Will be updated after creating a seperate
-              repo
+              Github Repository Link
             </a>
           </div>
         </a>
@@ -161,10 +160,9 @@ function Portfolio() {
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
-            <h2 className="text-xl font-semibold mb-4">Project Title 6</h2>
+            <h2 className="text-xl font-semibold mb-4">Readme Generator</h2>
             <p className="mb-4">
-              Description for project 6 goes here. This section provides a brief
-              overview of the project.
+              This is a readme generator that creates a structured readme.
             </p>
             <a
               href="https://github.com/jonghoBae0218/readme-generator"
