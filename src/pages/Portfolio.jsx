@@ -8,6 +8,35 @@ function Portfolio() {
 
       {/* Portfolio Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Container 3 */}
+        <a
+          href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-gray-800 text-white rounded-lg overflow-hidden border border-gray-600 transition-transform transform hover:scale-105"
+        >
+          <img
+            src="./images/NASA-Logo-Large.png"
+            alt="Project 3"
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h2 className="text-xl font-semibold mb-4">
+              NASA Micro -G NExT Challenge: Search and Rescue Platform for
+              Optical Target Recognition
+            </h2>
+            <p className="mb-4">
+              This is a challenge conducted by NASA. Uses machine learning to
+              detect the key objects for resquing pilots in moon setting.
+            </p>
+            <a
+              href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
+              className="text-blue-400 hover:underline"
+            >
+              Github Repository Link
+            </a>
+          </div>
+        </a>
         {/* Container 1 */}
         <a
           href="https://project2-find-my-duo.onrender.com/"
@@ -56,36 +85,6 @@ function Portfolio() {
             </p>
             <a
               href="https://github.com/BrianTib/memable"
-              className="text-blue-400 hover:underline"
-            >
-              Github Repository Link
-            </a>
-          </div>
-        </a>
-
-        {/* Container 3 */}
-        <a
-          href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block bg-gray-800 text-white rounded-lg overflow-hidden border border-gray-600 transition-transform transform hover:scale-105"
-        >
-          <img
-            src="./images/NASA-Logo-Large.png"
-            alt="Project 3"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-4">
-            <h2 className="text-xl font-semibold mb-4">
-              NASA Micro -G NExT Challenge: Search and Rescue Platform for
-              Optical Target Recognition
-            </h2>
-            <p className="mb-4">
-              This is a challenge conducted by NASA. Uses machine learning to
-              detect the key objects for resquing pilots in moon setting.
-            </p>
-            <a
-              href="https://github.com/jonghoBae0218/Micro-G-NExT-SPOTR-Challenge?tab=readme-ov-file"
               className="text-blue-400 hover:underline"
             >
               Github Repository Link
